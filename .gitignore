@@ -1,0 +1,13 @@
+# IDE files
+.vscode
+
+# Misc
+.DS_Store
+
+# Build output
+a.out
+
+# Personal files
+homeworks/
+tasks/
+
