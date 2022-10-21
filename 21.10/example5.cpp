@@ -1,5 +1,6 @@
 // Compile with C++11!
 #include <iostream>
+#include <functional>
 
 using namespace std;
 
