@@ -53,6 +53,14 @@ full_ptr fill_fn = [](int index) -> int {
 }
 ```
 
+### Захват переменной + std::function
+
+```cpp
+function<int(int)> fill_fn = [n](int index) -> int {
+  return index * n;
+}
+```
+
 ## Примеры
 
 - [Определение переменной](example1.cpp)
