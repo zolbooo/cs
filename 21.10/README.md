@@ -61,9 +61,20 @@ function<int(int)> fill_fn = [n](int index) -> int {
 }
 ```
 
+## Шаблоны
+
+```cpp
+template <typename T>
+T sqr(T n) {
+  return n * n;
+}
+```
+
 ## Примеры
 
 - [Определение переменной](example1.cpp)
 - [Массив функций](example2.cpp)
 - [Заполнение массива](example3.cpp)
 - [Заполнение массива с лямбда-выражением](example4.cpp)
+- [Лямбда-выражение с захватом](example5.cpp)
+- [Шаблон](example6.cpp)
