@@ -38,8 +38,24 @@ typedef int (*f_pointer)(int);
 f_pointer f_ptr = sqr;
 ```
 
+## Лямбда-выражение
+
+Структура: `[](параметры) -> возвращаемый тим { тело функции }`
+
+```cpp
+typedef int (*fill_ptr)(int);
+```
+
+```cpp
+full_ptr fill_fn = [](int index) -> int {
+  // Квадрат индекса
+  return index * index;
+}
+```
+
 ## Примеры
 
 - [Определение переменной](example1.cpp)
 - [Массив функций](example2.cpp)
 - [Заполнение массива](example3.cpp)
+- [Заполнение массива с лямбда-выражением](example4.cpp)
