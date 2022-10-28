@@ -30,3 +30,21 @@ struct my_struct {
   char s[10];
 };
 ```
+
+В структуре нельзя объявлять поля собственного типа, но указатели добавлять можно.
+
+Нельзя:
+
+```cpp
+struct my_struct {
+  my_struct next;
+};
+```
+
+Можно:
+
+```cpp
+struct my_struct {
+  my_struct *next;
+};
+```
