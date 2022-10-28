@@ -48,3 +48,12 @@ struct my_struct {
   my_struct *next;
 };
 ```
+
+### Union
+
+```cpp
+union my_inion {
+  long long x;
+  double z;
+};
+```
