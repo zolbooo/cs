@@ -18,3 +18,15 @@ int main() {
   return 0;
 }
 ```
+
+## Структуры
+
+В структурах можно хранить любые типы данных.
+
+```cpp
+struct my_struct {
+  int a;
+  double x;
+  char s[10];
+};
+```
