@@ -6,6 +6,7 @@
 
 # Build output
 a.out
+a.out.dSYM
 
 # Personal files
 homeworks/
