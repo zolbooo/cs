@@ -1,0 +1,27 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+  setlocale(LC_ALL, "RUS");
+
+  ifstream f;
+  f.open("example.txt");
+  if (f.is_open()) {
+    int x;
+    while (!f.eof()) {
+      f >> x;
+      if (!f.fail()) {
+        cout << x << " ";
+      } else {
+        // Error
+        cout << "x" << " ";
+      }
+    }
+	f.close();
+  } else {
+	cout << "Файл не открылся" << endl;
+  }
+  return 0;
+}
