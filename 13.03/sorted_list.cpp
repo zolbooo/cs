@@ -95,6 +95,7 @@ bool remove_all(sorted_list *&list, int value)
 		else
 			curr = curr->next;
 	}
+	return true;
 }
 bool remove(sorted_list *&list, int value)
 {
