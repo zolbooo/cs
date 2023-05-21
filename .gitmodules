@@ -1,0 +1,3 @@
+[submodule "tgbot/airport-codes"]
+	path = tgbot/airport-codes
+	url = https://github.com/lxndrblz/Airports.git
